@@ -13,6 +13,14 @@ attr_reader :name, :artist, :genre
         @@genres << @genre
     end
 
+    def status
+      @status
+    end
+
+    def status=(new_status)
+      @status = new_status
+    end
+
     def self.count
         @@count
     end
